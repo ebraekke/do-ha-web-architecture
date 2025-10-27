@@ -72,7 +72,7 @@ variable "database_size" {
 # Can view slugs (valid options) https://slugs.do-api.dev/
 variable "image" {
     type = string
-    default = "ubuntu-24-04-x64"
+    default = "rockylinux-9-x64"
 }
 
 # Range for ips in VPC

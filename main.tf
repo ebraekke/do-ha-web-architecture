@@ -4,6 +4,7 @@
 module "bastion" {
     source                  = "./modules/bastion"
 
+    # Bastion needs to be most recent ubuntu
     image                   = var.image
     name                    = var.name
     region                  = var.region
