@@ -1,4 +1,5 @@
 #cloud-config
+# this is specifically for Ubuntu 
 package_upgrade: false
 users:
   - name: jump    

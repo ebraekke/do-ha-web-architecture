@@ -5,7 +5,7 @@ module "bastion" {
     source                  = "./modules/bastion"
 
     # Bastion needs to be most recent ubuntu
-    image                   = var.image
+    image                   = "ubuntu-24-04-x64"
     name                    = var.name
     region                  = var.region
     ssh_key                 = data.digitalocean_ssh_key.main.id
