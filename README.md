@@ -1,5 +1,11 @@
 # do-ha-web-architecture
 
+## Use
+
+```
+tofu plan --out=dohaweb.tfplan --var-file=config/fra1.tfvars
+```
+
 ## Overview 
 
 DigitalOcean implementation  of a highly available web architecture.

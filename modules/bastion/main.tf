@@ -58,4 +58,5 @@ resource "digitalocean_firewall" "bastion" {
         protocol = "icmp"
         destination_addresses = [var.ip_allow_range]
     }
+
 }

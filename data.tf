@@ -11,6 +11,7 @@ data "digitalocean_domain" "web" {
     name = var.domain_name
 }
 
+/*
 # Create bastion user data 
 data "template_file" "bastion" {
   template = file("${path.module}/templates/bastion.tpl")
@@ -19,3 +20,4 @@ data "template_file" "bastion" {
     super_user      = "root"
   }
 }
+*/
